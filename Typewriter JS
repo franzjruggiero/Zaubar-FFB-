@@ -1,0 +1,202 @@
+<script>
+
+var options = {
+    loop: false,
+    typeSpeed: 100,
+  };
+
+  var typed_1 = new Typed("#heading_1", {
+	strings: ['Erinnerungen und offene Wunden'],
+  loop:false,
+	typeSpeed: 100,
+	});
+  typed_1.stop();
+  $(".typed-cursor").hide();
+
+$('#heading_1').on('inview', function(event, isInView) {
+  if (isInView) {
+    typed_1.start();
+		helicopter.play();
+  } else {
+    // element has gone out of viewport
+  }
+});
+
+	var typed_caption = new Typed("#typed_caption", {
+	strings: ['München zum Austragungsort der Olympischen Sommerspiele 1972 zu machen ging auf die Idee von Willi Daume zurück, dem Präsidenten des Nationalen Olympischen Komitees (NOK). Gemeinsam mit Münchens Oberbürgermeister Hans-Jochen Vogel, der im Oktober 1965 zunächst skeptisch auf die Idee der Ausrichtung der Olympischen Spiele reagierte, wurde ein erster Plan zur Umsetzung der Bewerbung entwickelt.'],
+	loop:false,
+	typeSpeed: 25,
+	startDelay: 7500, 
+	});
+
+	var typed_caption_2 = new Typed("#typed_caption_2", {
+	strings: ['Für die Olympischen Sommerspiele werden mehr als zwei Milliarden Deutsche Mark in den Bau neuer Sportstätten, des Olympiaparks, des Olympischen Dorfes sowie in die Infrastruktur investiert. Das Ziel war es, den über 10.000 Sportlerinnen und Sportlern sowie Sportfunktionärinnen und Sportfunktionären aus 121 Ländern optimale Wettkampf- und Erholungsbedingungen zu bieten.'],
+	loop:false,
+	typeSpeed: 25,
+	startDelay: 25000, 
+	});
+
+	typed_caption.stop();
+  $('.typed-cursor').hide();
+
+
+ var typed_2 = new Typed("#heading_2", {
+	strings: ['Olympia in München'],
+  loop:false,
+	typeSpeed: 100,
+	});
+
+  typed_2.stop();
+  $(".typed-cursor").hide();
+
+$('#heading_2').on('inview', function(event, isInView) {
+  if (isInView) {
+		let blurred_background = document.getElementById('blurred_background');
+		blurred_background.classList.add('blurred_bg');
+    typed_2.start();
+		typed_caption.start();
+		typed_caption_2.start();
+  } else {
+    // element has gone out of viewport
+  }
+});
+
+
+ var typed_3 = new Typed("#heading_3", {
+	strings: ['Die heiteren Spiele'],
+  loop:false,
+	typeSpeed: 100
+	});
+
+  typed_3.stop();
+  $(".typed-cursor").hide();
+
+$('#heading_3').on('inview', function(event, isInView) {
+  if (isInView) {
+    typed_3.start();
+  } else {
+    // element has gone out of viewport
+  }
+});
+
+var typed_4 = new Typed("#heading_4", {
+	strings: ['Geiselnahme'],
+  loop:false,
+	typeSpeed: 100
+	});
+
+  typed_4.stop();
+  $(".typed-cursor").hide();
+
+
+$('#heading_4').on('inview', function(event, isInView) {
+  if (isInView) {
+    typed_4.start();
+  } else {
+    // element has gone out of viewport
+  }
+});
+
+var typed_5 = new Typed("#heading_5", {
+	strings: ['Erste Reaktionen auf die Geiselnahme'],
+  loop:false,
+	typeSpeed: 100
+	});
+
+  typed_5.stop();
+  $(".typed-cursor").hide();
+
+$('#heading_5').on('inview', function(event, isInView) {
+  if (isInView) {
+    typed_5.start();
+  } else {
+    // element has gone out of viewport
+  }
+});
+
+var typed_6 = new Typed("#heading_6", {
+	strings: ['Forderungen und Verhandlungen'],
+  loop:false,
+	typeSpeed: 100
+	});
+
+  typed_6.stop();
+  $(".typed-cursor").hide();
+
+$('#heading_6').on('inview', function(event, isInView) {
+  if (isInView) {
+    typed_6.start();
+  } else {
+    // element has gone out of viewport
+  }
+});
+
+var typed_7 = new Typed("#heading_7", {
+	strings: ['Planungen zur Befreiung der Geiseln'],
+  loop:false,
+	typeSpeed: 100
+	});
+
+  typed_7.stop();
+  $(".typed-cursor").hide();
+
+$('#heading_7').on('inview', function(event, isInView) {
+  if (isInView) {
+    typed_7.start();
+  } else {
+    // element has gone out of viewport
+  }
+});
+
+var typed_8 = new Typed("#heading_8", {
+	strings: ['Entscheidung für Fürstenfeldbruck'],
+  loop:false,
+	typeSpeed: 100
+	});
+
+  typed_8.stop();
+  $(".typed-cursor").hide();
+
+$('#heading_8').on('inview', function(event, isInView) {
+  if (isInView) {
+    typed_8.start();
+  } else {
+    // element has gone out of viewport
+  }
+});
+
+var typed_9 = new Typed("#heading_9", {
+	strings: ['Scheitern der Befreiung in Fürstenfeldbruck'],
+  loop:false,
+	typeSpeed: 100
+	});
+
+  typed_9.stop();
+  $(".typed-cursor").hide();
+
+$('#heading_9').on('inview', function(event, isInView) {
+  if (isInView) {
+    typed_9.start();
+  } else {
+    // element has gone out of viewport
+  }
+});
+
+var typed_10 = new Typed("#heading_10", {
+	strings: ['Reaktionen und mediale Berichterstattung'],
+  loop:false,
+	typeSpeed: 100
+	});
+
+  typed_10.stop();
+  $(".typed-cursor").hide();
+
+$('#heading_10').on('inview', function(event, isInView) {
+  if (isInView) {
+    typed_10.start();
+  } else {
+    // element has gone out of viewport
+  }
+});
+
+</script>
